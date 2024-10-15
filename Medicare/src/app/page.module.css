@@ -1,0 +1,35 @@
+.homePage_main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home_inner_section_1{
+  width: 40%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.home_inner_section_1 h1{
+  font-size: 4vw;
+}
+.home_inner_section_1 p{
+  font-size: large;
+}
+.home_inner_section_1 a{
+  text-decoration: none;
+  color: white;
+  background-color: brown;
+  border: 1px solid brown;
+  padding: 0.7rem 2.5rem;
+  border-radius: 20px;
+  width: fit-content;
+}
+.care{
+  color:brown;
+}
+.home_img{
+  /* clip-path: circle(50% at 50% 50%); */
+  border-radius: 200px;
+}

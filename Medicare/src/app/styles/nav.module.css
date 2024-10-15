@@ -1,0 +1,40 @@
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6vw;
+    align-items: center;
+}
+.nav_taxtes_main{
+    display: flex;
+    width: 71%;
+    gap:4vw;
+}
+.navTaxt{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+
+}
+.navTaxt a{
+    text-decoration: none;
+    color: black;
+}
+.navRoute{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style-type: none;
+}
+.navRoute a{
+    text-decoration: none;
+    color: brown;
+    border: 1px solid brown;
+    padding: 0.7rem 2.5rem;
+    border-radius: 20px;
+    
+}
+.navRoute a:hover{
+    background-color: brown;
+    color: white;
+}

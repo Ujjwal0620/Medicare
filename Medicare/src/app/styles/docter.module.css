@@ -1,0 +1,52 @@
+.docter_text{
+    text-align: center;
+    width: 45%;
+}
+.docter_header{
+    display: flex;
+    flex-direction: column;
+    /* gap: 15vh; */
+}
+.docter_inner_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:fit-content;
+    background-color: rgb(206, 199, 199);
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    text-align: center;
+    gap: 1rem;
+}
+.docter_inner_item_para{
+    width: 80%;
+}
+.user_id_img{
+    border-radius: 100px;
+}
+.docter_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+    margin: 5vh 5vw;
+
+}
+.docter_image{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.silderIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50rem;
+    background: brown;
+    color: white;
+    font-size: 2vw;
+    
+  }

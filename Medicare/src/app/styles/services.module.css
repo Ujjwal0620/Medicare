@@ -1,0 +1,54 @@
+.services_main{
+    display: flex;
+    justify-content: space-between;
+    margin:5vw;
+}
+.services_main p{
+    font-size: large;
+    width: 45%;
+
+}
+.services_main h1{
+    font-size: 4vw;
+    width: 45%;
+}
+.servicesNav_main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.care{
+    color:brown;
+  }
+.servicesilder_main{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin:5vw;
+
+}
+.silderItem{
+    border-radius: 20px;
+    background-color: rgb(214, 141, 6);
+    width: 20%;
+    height: fit-content;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+.silderItem hr{
+    width: 30%;
+}
+  .silderIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50rem;
+    background: brown;
+    color: white;
+    font-size: 4vw;
+  }

@@ -1,0 +1,29 @@
+.home_img{
+    border-radius: 200px;
+}
+.about_main{
+    display: flex;
+    margin:0 5vw;
+    justify-content: center;
+    gap: 10vw;
+}
+.about_item{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+
+}
+.about_item h1{
+    font-size: 4vw;
+}
+.about_item a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    border: 1px solid brown;
+    padding: 0.7rem 2.5rem;
+    border-radius: 20px;
+    width: fit-content;
+  }

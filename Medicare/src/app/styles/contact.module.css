@@ -1,0 +1,35 @@
+.contact_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+.contact_inner_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+.contact_inner_div form{
+    background-color: rgb(180, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.input{
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50vw;
+}
+.contact_inner_div form button{
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 18vw;
+}
